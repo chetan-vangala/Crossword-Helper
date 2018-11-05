@@ -1,0 +1,47 @@
+#app{
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  /* min-width: 550px;
+  max-width: 850px; */
+  margin: 40px;
+}
+
+a.active {
+  color: orange;
+}
+
+nav{
+  padding-top: 20px;
+}
+
+/* Chetan - custom styles */
+*{
+    box-sizing: border-box;
+}
+
+#settings{
+    margin-top: 30px;
+}
+  #settings label{
+    margin-left: 10px;
+  }
+
+#puzzle-board{
+	margin-top: 50px;
+  margin-bottom: 50px;
+	/*border: 1px solid black;*/
+}
+      .letter-box{
+          width: 30px;
+          height: 30px;
+          border: 1px solid black;
+          float: left;
+          font-size: 12px;
+      }
+          .letter-box > input{
+              width: 100%;
+              height: 100%;
+              padding-left: 10px;
+              border: none;
+              color: black;
+          }
